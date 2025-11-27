@@ -2,6 +2,8 @@
 
 This repository contains the implementation code for UEPNet, a novel Input Complexity-Aware Dynamic Structured Pruning framework designed for autonomous driving applications. UEPNet eliminates the sequential decision overhead found in traditional early-exit networks by proactively determining the optimal network depth before inference begins.
 
+This project is a collaborative effort developed as part of the first phase of my undergraduate thesis, reflecting both joint research and the evolving direction of the work. Future renditions aim to incorporate optimisations including self-distillation, joint re-training and saliency-guided predictions.
+
 The framework introduces an Upfront Exit Predictor (UEP), a lightweight module that decouples decision-making from execution. By predicting the optimal exit point upfront, UEPNet enables contiguous execution and significantly reduces runtime latency.
 
 ## Repository Structure
